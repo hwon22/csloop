@@ -11,6 +11,7 @@ namespace csloop
     {
         static void Main(string[] args)
         {
+            /* 5.8(금) 실습
             long start = DateTime.Now.Ticks;
             long count = 0;
             while (start + (10000000) >DateTime.Now.Ticks)
@@ -25,6 +26,13 @@ namespace csloop
             {
                 Console.WriteLine(item);
             }
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }*/
+
+            //5.12(화)실습
+            int[] array = new int[10];
             foreach (var item in array)
             {
                 Console.WriteLine(item);
