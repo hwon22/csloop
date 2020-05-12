@@ -32,7 +32,11 @@ namespace csloop
             }*/
 
             //5.12(화)실습
-            int[] array = new int[10];
+            //int[] array = new int[20];
+            //int[] array = new int[3] { 1, 2, 3 };
+            //오류발생: int[] array = int[]{ 1,2,3};
+            int[] array = { 1, 2, 3 };
+
             foreach (var item in array)
             {
                 Console.WriteLine(item);
